@@ -4,13 +4,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>How Did We Do?</title>
+  <title>How did we do?</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       padding: 2rem;
+      background-color: #f0f0f0;
       text-align: center;
-      background-color: #f9f9f9;
     }
     img.logo {
       max-width: 250px;
@@ -20,26 +20,23 @@
       margin-bottom: 0.5rem;
     }
     p {
-      font-size: 1.1rem;
       margin-bottom: 2rem;
+      font-size: 1.1rem;
     }
     .btn {
-      display: block;
-      padding: 1rem;
-      margin: 1rem auto;
-      width: 80%;
-      max-width: 300px;
+      display: inline-block;
+      padding: 1rem 2rem;
+      margin: 1rem;
       font-size: 1.2rem;
-      text-decoration: none;
       border-radius: 8px;
+      text-decoration: none;
+      color: white;
     }
-    .positive {
+    .happy {
       background-color: #4CAF50;
-      color: white;
     }
-    .negative {
+    .unhappy {
       background-color: #f44336;
-      color: white;
     }
   </style>
 </head>
@@ -47,7 +44,7 @@
   <img src="logo-out-west.png" alt="Out West Automotive Logo" class="logo" />
   <h1>How did we do?</h1>
   <p>Let us know by tapping below</p>
-  <a href="https://reviewthis.biz/OutWestAutomotive" class="btn positive" target="_blank">😊 I'm Happy</a>
-  <a href="feedback-form.html" class="btn negative">😞 I Had an Issue</a>
+  <a class="btn happy" href="https://reviewthis.biz/OutWestAutomotive" target="_blank">😊 Leave a Review</a>
+  <a class="btn unhappy" href="feedback-form.html">😞 Send Feedback</a>
 </body>
 </html>

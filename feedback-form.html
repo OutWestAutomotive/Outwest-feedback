@@ -59,5 +59,12 @@
     <textarea name="Message" placeholder="Tell us what went wrong..." rows="5" required></textarea>
     <button type="submit">Send Feedback</button>
   </form>
+
+  <!-- Netlify fallback form to trigger form registration -->
+  <form name="feedback" netlify netlify-honeypot="bot-field" hidden>
+    <input type="text" name="Name" />
+    <input type="tel" name="Phone" />
+    <textarea name="Message"></textarea>
+  </form>
 </body>
 </html>
